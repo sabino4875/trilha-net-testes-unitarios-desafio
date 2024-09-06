@@ -1,2 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
+
+String[] _hello = ["Hello, World!"];
+
+Console.WriteLine(_hello[0]);
